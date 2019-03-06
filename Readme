@@ -1,0 +1,6 @@
+Notes:
+1. The target platform of three projects in the solution should be x64;
+2. Modify the assembly path setting in the App.config file of PDPlugInRunner.TestRunner project to specify your Portal Dosimetry assembly location
+  <appSettings>
+    <add key="AssemblyPath" value="C:\Program Files (x86)\Varian\......." />
+  </appSettings>
